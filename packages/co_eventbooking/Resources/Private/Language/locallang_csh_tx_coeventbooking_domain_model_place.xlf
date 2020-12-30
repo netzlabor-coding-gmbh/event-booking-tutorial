@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:co_eventbooking/Resources/Private/Language/locallang_csh" date="2020-12-28T16:32:25Z" product-name="co_eventbooking">
+		<header/>
+		<body>
+			<trans-unit id="name.description" resname="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="address.description" resname="address.description">
+				<source>address</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

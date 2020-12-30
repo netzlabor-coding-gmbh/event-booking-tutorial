@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:co_eventbooking/Resources/Private/Language/locallang_csh" date="2020-12-28T16:32:25Z" product-name="co_eventbooking">
+		<header/>
+		<body>
+			<trans-unit id="number.description" resname="number.description">
+				<source>number</source>
+			</trans-unit>
+			<trans-unit id="gender.description" resname="gender.description">
+				<source>gender</source>
+			</trans-unit>
+			<trans-unit id="first_name.description" resname="first_name.description">
+				<source>firstName</source>
+			</trans-unit>
+			<trans-unit id="last_name.description" resname="last_name.description">
+				<source>lastName</source>
+			</trans-unit>
+			<trans-unit id="email.description" resname="email.description">
+				<source>email</source>
+			</trans-unit>
+			<trans-unit id="dsgvo.description" resname="dsgvo.description">
+				<source>dsgvo</source>
+			</trans-unit>
+			<trans-unit id="event.description" resname="event.description">
+				<source>event</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

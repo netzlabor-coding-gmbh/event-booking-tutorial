@@ -1,0 +1,76 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Backend" />
+
+<f:section name="content">
+    <h1>Edit Booking #{booking.number}</h1>
+
+    <f:flashMessages />
+
+    <f:render partial="FormErrors" />
+
+    <f:form action="update" name="booking" object="{booking}" >
+
+        <div class="form-section">
+            <div class="form-group">
+                <label for="gender">
+                    <f:translate key="tx_coeventbooking_domain_model_booking.gender" />
+                </label>
+                <div class="form-control-wrap">
+                    <f:form.select property="gender" options="{Female: 'Female', Male: 'Male'}" class="form-control" />
+                </div>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <div class="form-group">
+                <label for="firstName">
+                    <f:translate key="tx_coeventbooking_domain_model_booking.first_name" />
+                </label>
+                <div class="form-control-wrap">
+                    <f:form.textfield property="firstName" class="form-control" />
+                </div>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <div class="form-group">
+                <label for="lastName">
+                    <f:translate key="tx_coeventbooking_domain_model_booking.last_name" />
+                </label>
+                <div class="form-control-wrap">
+                    <f:form.textfield property="lastName" class="form-control" />
+                </div>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <div class="form-group">
+                <label for="email">
+                    <f:translate key="tx_coeventbooking_domain_model_booking.email" />
+                </label>
+                <div class="form-control-wrap">
+                    <f:form.textfield property="email" class="form-control" />
+                </div>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <div class="form-group">
+                <label for="dsgvo">
+                    <f:translate key="tx_coeventbooking_domain_model_booking.dsgvo" />
+                </label>
+                <div class="form-control-wrap">
+                    <f:form.checkbox property="dsgvo" value="1" />
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="btn-toolbar">
+            <f:link.action action="list" class="btn btn-default">Close</f:link.action>
+            <f:form.submit value="Save" class="btn btn-default"/>
+        </div>
+    </f:form>
+</f:section>
+</html>

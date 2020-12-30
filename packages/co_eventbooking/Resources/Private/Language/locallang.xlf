@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:co_eventbooking/Resources/Private/Language/locallang" date="2020-12-28T16:32:25Z" product-name="co_eventbooking">
+		<header/>
+		<body>
+			<trans-unit id="tx_coeventbooking_domain_model_event" resname="tx_coeventbooking_domain_model_event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.title" resname="tx_coeventbooking_domain_model_event.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.description" resname="tx_coeventbooking_domain_model_event.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.date" resname="tx_coeventbooking_domain_model_event.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.ticket_amount" resname="tx_coeventbooking_domain_model_event.ticket_amount">
+				<source>Ticket Amount</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.image" resname="tx_coeventbooking_domain_model_event.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.slug" resname="tx_coeventbooking_domain_model_event.slug">
+				<source>Slug</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.place" resname="tx_coeventbooking_domain_model_event.place">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.speaker" resname="tx_coeventbooking_domain_model_event.speaker">
+				<source>Speaker</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_place" resname="tx_coeventbooking_domain_model_place">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_place.name" resname="tx_coeventbooking_domain_model_place.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_place.address" resname="tx_coeventbooking_domain_model_place.address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_speaker" resname="tx_coeventbooking_domain_model_speaker">
+				<source>Speaker</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_speaker.name" resname="tx_coeventbooking_domain_model_speaker.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_speaker.phone" resname="tx_coeventbooking_domain_model_speaker.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking" resname="tx_coeventbooking_domain_model_booking">
+				<source>Booking</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.number" resname="tx_coeventbooking_domain_model_booking.number">
+				<source>Number</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.gender" resname="tx_coeventbooking_domain_model_booking.gender">
+				<source>Gender</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.first_name" resname="tx_coeventbooking_domain_model_booking.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.last_name" resname="tx_coeventbooking_domain_model_booking.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.email" resname="tx_coeventbooking_domain_model_booking.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.dsgvo" resname="tx_coeventbooking_domain_model_booking.dsgvo">
+				<source>Dsgvo</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.event" resname="tx_coeventbooking_domain_model_booking.event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="event_list.header" resname="event_list.header">
+				<source>List of events</source>
+			</trans-unit>
+			<trans-unit id="event_list.no-events-found" resname="event_list.no-events-found">
+				<source>No Events Found :(</source>
+			</trans-unit>
+			<trans-unit id="event_show.back-to-list" resname="event_show.back-to-list">
+				<source>Back to event list</source>
+			</trans-unit>
+			<trans-unit id="event_show.date" resname="event_show.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="event_show.book-event" resname="event_show.book-event">
+				<source>Book event</source>
+			</trans-unit>
+			<trans-unit id="event_show.no-tickets-left" resname="event_show.no-tickets-left">
+				<source>Sorry, no tickets left.</source>
+			</trans-unit>
+			<trans-unit id="event_show.description" resname="event_show.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="event_show.place" resname="event_show.place">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="event_show.speaker" resname="event_show.speaker">
+				<source>Speaker</source>
+			</trans-unit>
+			<trans-unit id="booking_new.back-link" resname="booking_new.back-link">
+				<source>Back to %s description</source>
+			</trans-unit>
+			<trans-unit id="booking_new.header" resname="booking_new.header">
+				<source>New Booking</source>
+			</trans-unit>
+			<trans-unit id="booking_create.success" resname="booking_create.success">
+				<source>You have successfully booked the event.</source>
+			</trans-unit>
+			<trans-unit id="booking_success.header" resname="booking_success.header">
+				<source>Congratulations</source>
+			</trans-unit>
+			<trans-unit id="booking_success.go-back-to-list" resname="booking_success.go-back-to-list">
+				<source>Go back to list of events</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,55 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Backend" />
+
+<f:section name="content">
+
+    <h1>Listing for Booking</h1>
+    <f:flashMessages />
+
+    <table class="tx_coeventbooking table table-striped table-hover table-condensed" >
+        <thead>
+            <tr>
+                <th><f:translate key="tx_coeventbooking_domain_model_booking.number" /></th>
+                <th><f:translate key="tx_coeventbooking_domain_model_booking.gender" /></th>
+                <th><f:translate key="tx_coeventbooking_domain_model_booking.first_name" /></th>
+                <th><f:translate key="tx_coeventbooking_domain_model_booking.last_name" /></th>
+                <th><f:translate key="tx_coeventbooking_domain_model_booking.email" /></th>
+                <th><f:translate key="tx_coeventbooking_domain_model_booking.dsgvo" /></th>
+                <th> </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <f:for each="{bookings}" as="booking">
+                <tr>
+                    <td><f:link.action action="edit" arguments="{booking : booking}">{booking.number}</f:link.action></td>
+                    <td><f:link.action action="edit" arguments="{booking : booking}">{booking.gender}</f:link.action></td>
+                    <td><f:link.action action="edit" arguments="{booking : booking}">{booking.firstName}</f:link.action></td>
+                    <td><f:link.action action="edit" arguments="{booking : booking}">{booking.lastName}</f:link.action></td>
+                    <td><f:link.action action="edit" arguments="{booking : booking}">{booking.email}</f:link.action></td>
+                    <td><f:link.action action="edit" arguments="{booking : booking}">{booking.dsgvo}</f:link.action></td>
+                    <td class="col-control nowrap">
+                        <div class="btn-group">
+                            <f:link.action action="edit" arguments="{booking : booking}" class="btn btn-default">
+                                <span class="t3js-icon icon icon-size-small icon-state-default icon-actions-open" data-identifier="actions-open">
+                                    <span class="icon-markup">
+                                        <img src="/typo3/sysext/core/Resources/Public/Icons/T3Icons/actions/actions-open.svg" width="16" height="16">
+                                    </span>
+                                </span>
+                            </f:link.action>
+                            <f:link.action action="delete" arguments="{booking : booking}" class="btn btn-default" onclick="return confirm('Sure?')">
+                                <span class="t3js-icon icon icon-size-small icon-state-default icon-actions-delete" data-identifier="actions-delete">
+                                    <span class="icon-markup">
+                                        <img src="/typo3/sysext/core/Resources/Public/Icons/T3Icons/actions/actions-delete.svg" width="16" height="16">
+                                    </span>
+                                </span>
+                            </f:link.action>
+                        </div>
+                    </td>
+                </tr>
+            </f:for>
+        </tbody>
+    </table>
+
+</f:section>
+</html>

@@ -1,0 +1,37 @@
+base: 'https://event-booking.ddev.site/'
+baseVariants: {  }
+errorHandling:
+  -
+    errorCode: '404'
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=2'
+languages:
+  -
+    title: English
+    enabled: true
+    base: /
+    typo3Language: default
+    locale: en_US
+    iso-639-1: en
+    navigationTitle: ''
+    hreflang: ''
+    direction: ''
+    flag: us
+    languageId: '0'
+rootPageId: 1
+routes: {  }
+routeEnhancers:
+  CoEventbooking:
+    type: Extbase
+    extension: CoEventbooking
+    plugin: Event
+    routes:
+      - { routePath: '/', _controller: 'Event::list' }
+      - { routePath: '/{event-slug}', _controller: 'Event::show', _arguments: { event-slug: 'event' } }
+      - { routePath: '/booking/{event-slug}', _controller: 'Booking::new', _arguments: { event-slug: 'event' } }
+      - { routePath: '/booking/success', _controller: 'Booking::success' }
+    aspects:
+      event-slug:
+        type: PersistedAliasMapper
+        tableName: tx_coeventbooking_domain_model_event
+        routeFieldName: slug

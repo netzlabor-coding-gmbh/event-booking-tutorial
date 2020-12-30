@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:co_eventbooking/Resources/Private/Language/locallang_db" date="2020-12-28T16:32:25Z" product-name="co_eventbooking">
+		<header/>
+		<body>
+			<trans-unit id="tx_coeventbooking_domain_model_event" resname="tx_coeventbooking_domain_model_event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.title" resname="tx_coeventbooking_domain_model_event.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.description" resname="tx_coeventbooking_domain_model_event.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.date" resname="tx_coeventbooking_domain_model_event.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.ticket_amount" resname="tx_coeventbooking_domain_model_event.ticket_amount">
+				<source>Ticket Amount</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.image" resname="tx_coeventbooking_domain_model_event.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.slug" resname="tx_coeventbooking_domain_model_event.slug">
+				<source>Slug</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.place" resname="tx_coeventbooking_domain_model_event.place">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.speaker" resname="tx_coeventbooking_domain_model_event.speaker">
+				<source>Speaker</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_place" resname="tx_coeventbooking_domain_model_place">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_place.name" resname="tx_coeventbooking_domain_model_place.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_place.address" resname="tx_coeventbooking_domain_model_place.address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_speaker" resname="tx_coeventbooking_domain_model_speaker">
+				<source>Speaker</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_speaker.name" resname="tx_coeventbooking_domain_model_speaker.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_speaker.phone" resname="tx_coeventbooking_domain_model_speaker.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking" resname="tx_coeventbooking_domain_model_booking">
+				<source>Booking</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.number" resname="tx_coeventbooking_domain_model_booking.number">
+				<source>Number</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.gender" resname="tx_coeventbooking_domain_model_booking.gender">
+				<source>Gender</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.first_name" resname="tx_coeventbooking_domain_model_booking.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.last_name" resname="tx_coeventbooking_domain_model_booking.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.email" resname="tx_coeventbooking_domain_model_booking.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.dsgvo" resname="tx_coeventbooking_domain_model_booking.dsgvo">
+				<source>Dsgvo</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.event" resname="tx_coeventbooking_domain_model_booking.event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="tx_co_eventbooking_event.name" resname="tx_co_eventbooking_event.name">
+				<source>Events</source>
+			</trans-unit>
+			<trans-unit id="tx_co_eventbooking_event.description" resname="tx_co_eventbooking_event.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

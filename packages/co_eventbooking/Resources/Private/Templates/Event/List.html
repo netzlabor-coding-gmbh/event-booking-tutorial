@@ -1,0 +1,45 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+<f:section name="content">
+    <div class="container mx-auto my-12">
+        <h1 class="text-2xl mb-12">{f:translate(key: 'event_list.header')}</h1>
+
+        <f:flashMessages />
+
+        <f:if condition="{events}">
+            <f:then>
+                <div class="flex flex-wrap -mx-2 overflow-hidden">
+                    <f:for each="{events}" as="event">
+                        <div class="my-2 p-2 w-full overflow-hidden sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                            <f:link.action action="show" arguments="{event : event}">
+                                <f:image image="{event.image}" class="w-full h-40 object-cover" alt="{event.title}" maxWidth="350"/>
+                            </f:link.action>
+                            <div class="mt-2">
+                                <div>
+                                    <div class="text-xs text-gray-600 uppercase font-bold">
+                                        <f:format.date format="l, d.m.Y, H:i">{event.date}</f:format.date>
+                                    </div>
+                                    <div class="font-bold text-gray-700 leading-snug">
+                                        <f:link.action action="show" arguments="{event : event}" class="hover:underline">
+                                            {event.title}
+                                        </f:link.action>
+                                    </div>
+                                    <div class="mt-2 text-sm text-gray-600">
+                                        {event.place.name}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </f:for>
+                </div>
+            </f:then>
+            <f:else>
+                <div class="p-2 border">{f:translate(key: 'event_list.no-events-found')}</div>
+            </f:else>
+        </f:if>
+
+    </div>
+
+</f:section>
+</html>

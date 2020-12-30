@@ -1,0 +1,38 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+    <div class="mt-4">
+        <label for="gender" class="block uppercase text-gray-600 text-xs font-bold mb-2">
+            <f:translate key="tx_coeventbooking_domain_model_booking.gender" />
+        </label>
+        <f:form.select property="gender" options="{Female: 'Female', Male: 'Male'}" class="block w-1/4 appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-2 px-4 focus:outline-none focus:bg-white focus:border-gray-500" />
+    </div>
+
+    <div class="mt-4">
+        <label for="firstName" class="block uppercase text-gray-600 text-xs font-bold mb-2">
+            <f:translate key="tx_coeventbooking_domain_model_booking.first_name" />
+        </label>
+        <f:form.textfield property="firstName" class="block w-1/4 appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-2 px-4 focus:outline-none focus:bg-white focus:border-gray-500" />
+    </div>
+
+    <div class="mt-4">
+        <label for="lastName" class="block uppercase text-gray-600 text-xs font-bold mb-2">
+            <f:translate key="tx_coeventbooking_domain_model_booking.last_name" />
+        </label>
+        <f:form.textfield property="lastName" class="block w-1/4 appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-2 px-4 focus:outline-none focus:bg-white focus:border-gray-500" />
+    </div>
+
+    <div class="mt-4">
+        <label for="email" class="block uppercase text-gray-600 text-xs font-bold mb-2">
+            <f:translate key="tx_coeventbooking_domain_model_booking.email" />
+        </label>
+        <f:form.textfield property="email" class="block w-1/4 appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-2 px-4 focus:outline-none focus:bg-white focus:border-gray-500" />
+    </div>
+
+    <div class="mt-4">
+        <label for="dsgvo" class="block mb-2">
+            <f:form.checkbox property="dsgvo" value="1" />
+            <f:translate key="tx_coeventbooking_domain_model_booking.dsgvo" />
+        </label>
+    </div>
+
+</html>

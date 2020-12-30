@@ -1,0 +1,52 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<table class="tx-co-eventbooking" >
+	<tr>
+		<td>
+			<f:translate key="tx_coeventbooking_domain_model_event.title" />
+		</td>
+		<td>
+			{event.title}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_coeventbooking_domain_model_event.description" />
+		</td>
+		<td>
+			{event.description}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_coeventbooking_domain_model_event.date" />
+		</td>
+		<td>
+			{event.date -> f:format.date()}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_coeventbooking_domain_model_event.ticket_amount" />
+		</td>
+		<td>
+			{event.ticketAmount}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_coeventbooking_domain_model_event.image" />
+		</td>
+		<td>
+			{event.image.originalResource.name}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_coeventbooking_domain_model_event.slug" />
+		</td>
+		<td>
+			{event.slug}
+		</td>
+	</tr>
+</table>
+</html>
